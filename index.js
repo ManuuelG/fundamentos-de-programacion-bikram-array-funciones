@@ -8,37 +8,21 @@ let arrayBidimensional = [[0, 1, 2], ['a', 'b', 'c']];
 function suma(numero1, numero2) {
     return numero1 + numero2;
 }
-console.log(suma(75, 155));   
-console.log(suma(127, 96));   
-console.log(suma(84, 111));   
-console.log(suma(52, 62));    
-console.log(suma(139, 159));
+
 
 function potenciacion(a, b) {
     return a ** b;
   }
-
-  console.log(potenciacion(5, 8));
-  console.log(potenciacion(39, 5));  
-  console.log(potenciacion(19, 4));  
-  console.log(potenciacion(10, 9));  
-  console.log(potenciacion(27, 7));  
   
   function separarPalabras(frase) {
     let palabrasseparadas = frase.split(" ");
     return palabrasseparadas;
   }
   
-  console.log(separarPalabras("Hola que tal?"));
-  console.log(separarPalabras("The Bridge for life"));
-  console.log(separarPalabras("A ver como separas esto"));
-
   function repetirString(texto, numero) {
     return texto.repeat(numero);
   }
   
-  console.log(repetirString('ja', 7));
-  console.log(repetirString('estoy castigado ', 10));
 
   function esPrimo(num) {
     for (let i = 2; i < num; i++) {
